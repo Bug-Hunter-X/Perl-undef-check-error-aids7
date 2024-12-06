@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Perl when checking for undefined values. The example shows how using 'eq' to compare against 'undef' will fail, because 'undef' isn't a string. The solution shows the correct way to check for 'undef' using defined().
